@@ -13,6 +13,7 @@ const Footer = () => {
       </p>
       <p className="icons">
         <a
+          rel="noopener"
           target={"_blank"}
           href={"https://www.linkedin.com/in/devrajsinh-jhala-673988200/"}
         >
@@ -20,13 +21,18 @@ const Footer = () => {
         </a>
 
         <a
+          rel="noopener"
           target={"_blank"}
           href={"https://www.instagram.com/devrajsinh.jhala/"}
         >
           <AiFillInstagram />
         </a>
 
-        <a target={"_blank"} href={"https://twitter.com/JHALA_D_S"}>
+        <a
+          rel="noopener"
+          target={"_blank"}
+          href={"https://twitter.com/JHALA_D_S"}
+        >
           <AiOutlineTwitter />
         </a>
       </p>
