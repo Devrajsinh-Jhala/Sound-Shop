@@ -37,7 +37,7 @@ export const StateContext = ({ children }) => {
 
       setCartItems([...cartItems, { ...product }]);
     }
-    toast.success(`${qty} ${product.name} successfully added to cart`);
+    toast.success(`Successfully Added to Cart`);
   };
 
   const onRemove = (product) => {

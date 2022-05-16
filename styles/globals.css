@@ -35,7 +35,7 @@ a {
   font-size: 29px;
   font-weight: 600;
   margin: 60px 0px;
-  color: #f02d34;
+  color: #214ebc;
 }
 .marquee {
   position: relative;
@@ -64,7 +64,7 @@ a {
 }
 
 span.text-red {
-  -webkit-text-stroke: 1px #f02d34;
+  -webkit-text-stroke: 1px #214ebc;
   margin-left: 6px;
 }
 .logo {
@@ -143,7 +143,7 @@ span.text-red {
 .hero-banner-container button {
   border-radius: 15px;
   padding: 10px 16px;
-  background-color: #f02d34;
+  background-color: #214ebc;
   color: white;
   border: none;
   margin-top: 40px;
@@ -208,7 +208,7 @@ span.text-red {
 }
 .footer-banner-container {
   padding: 100px 40px;
-  background-color: #f02d34;
+  background-color: #214ebc;
   border-radius: 15px;
   position: relative;
   height: 400px;
@@ -225,16 +225,20 @@ span.text-red {
   border-radius: 15px;
   padding: 10px 16px;
   background-color: white;
-  color: red;
+  color: blue;
   border: none;
   margin-top: 40px;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
+  float: right;
+}
+.banner-desc .left {
+  margin-right: 50px;
 }
 .banner-desc .left h3 {
   font-weight: 900;
-  font-size: 80px;
+  font-size: 60px;
   margin-left: 25px;
 }
 .banner-desc .left p {
@@ -252,13 +256,13 @@ span.text-red {
 }
 .banner-desc .right h3 {
   font-weight: 800;
-  font-size: 60px;
+  font-size: 50px;
 }
 .banner-desc .right p {
-  font-size: 18px;
+  font-size: 14px;
 }
 .banner-desc .right .company-desc {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 300;
 }
 .cart-wrapper {
@@ -314,7 +318,7 @@ span.text-red {
 }
 .cart-num-items {
   margin-left: 10px;
-  color: #f02d34;
+  color: #214ebc;
 }
 .empty-cart {
   margin: 40px;
@@ -395,7 +399,7 @@ span.text-red {
   margin-top: 10px;
   margin-top: 40px;
   text-transform: uppercase;
-  background-color: #f02d34;
+  background-color: green;
   color: #fff;
   cursor: pointer;
   transform: scale(1, 1);
@@ -422,7 +426,7 @@ span.text-red {
   transition: 0.3s ease-in-out;
 }
 .product-detail-image:hover {
-  background-color: #f02d34;
+  background-color: #214ebc;
 }
 .small-images-container {
   display: flex;
@@ -438,7 +442,7 @@ span.text-red {
 }
 
 .selected-image {
-  background-color: #f02d34;
+  background-color: #214ebc;
 }
 .reviews {
   color: #f02d34;
@@ -482,7 +486,7 @@ span.text-red {
 }
 .buttons .add-to-cart {
   padding: 10px 20px;
-  border: 1px solid #f02d34;
+  border: 1px solid #214ebc;
   margin-top: 40px;
   font-size: 18px;
   font-weight: 500;
@@ -500,7 +504,7 @@ span.text-red {
   width: 200px;
 
   padding: 10px 20px;
-  background-color: #f02d34;
+  background-color: green;
   color: white;
   border: none;
   margin-top: 40px;
@@ -524,7 +528,7 @@ span.text-red {
 }
 .quantity-desc .minus {
   border-right: 1px solid gray;
-  color: #f02d34;
+  color: #214ebc;
 }
 .quantity-desc .num {
   border-right: 1px solid gray;
@@ -552,7 +556,7 @@ span.text-red {
 }
 .max-qty {
   font-weight: 500;
-  color: #f02d34;
+  color: #214ebc;
 }
 .success-wrapper,
 .cancel-wrapper {
@@ -602,7 +606,7 @@ span.text-red {
 }
 .success .description .email {
   margin-left: 5px;
-  color: #f02d34;
+  color: #214ebc;
 }
 .product-max-qty {
   margin-top: 10px;
@@ -630,14 +634,14 @@ span.text-red {
   }
   .banner-desc .left h3 {
     font-weight: 900;
-    font-size: 50px;
+    font-size: 40px;
     margin-left: 5px;
   }
   .banner-desc .left p {
     margin: 18px;
   }
   .banner-desc .right h3 {
-    font-size: 45px;
+    font-size: 35px;
   }
   .banner-desc .right p {
     font-size: 18px;
@@ -648,6 +652,18 @@ span.text-red {
   .banner-desc {
     flex-wrap: wrap;
     gap: 20px;
+  }
+  .banner-desc button {
+    border-radius: 10px;
+    padding: 5px 11px;
+    background-color: white;
+    color: blue;
+    border: none;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    float: left;
   }
   .hero-banner-container {
     line-height: 1.3;
