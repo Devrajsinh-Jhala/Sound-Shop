@@ -12,8 +12,10 @@ import toast from "react-hot-toast";
 import { useStateContext } from "../context/StateContext";
 import { urlFor } from "../lib/client";
 import getStripe from "../lib/getStripe";
+import { useUser } from "@clerk/clerk-react";
 
 const Cart = () => {
+  const user = useUser();
   const cartRef = useRef();
   const {
     totalPrice,
@@ -130,9 +132,13 @@ const Cart = () => {
               <h3>₹{totalPrice}</h3>
             </div>
             <div className="btn-container">
-              <button type="button" className="btn" onClick={handleCheckout}>
-                Pay With Stripe
-              </button>
+              {!!user.isSignedIn ? (
+                <button type="button" className="btn" onClick={handleCheckout}>
+                  Pay With Stripe
+                </button>
+              ) : (
+                <div className="btn">Please Sign in to make payment</div>
+              )}
             </div>
           </div>
         )}
