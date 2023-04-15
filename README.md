@@ -2,7 +2,7 @@
 
 ### About the Project:
 
-👉 The project is a fully functional E-commerce Shop made using Next.JS and Sanity CMS mentored by JavaScript Mastery.
+👉 We have made a Tool mechanism Rental website for farmers using Next.JS and Sanity CMS mentored by JavaScript Mastery.
 
 # Problems Faced
 
