@@ -2,25 +2,7 @@
 
 ### About the Project:
 
-👉 The project is a fully functional E-commerce Shop made using Next.JS and Sanity CMS mentored by JavaScript Mastery.
-<br>
-👉 [Course](https://www.youtube.com/watch?v=4mOkFXyxfsU&t=441s)
-
-### Images:
-
-![Image 1](assets/Image1.png)
-<br>
-<br>
-![Image 2](assets/Image2.png)
-<br>
-<br>
-![Image 3](assets/Image3.png)
-<br>
-<br>
-![Image 4](assets/Image4.png)
-
-<br>
-<br>
+👉 We have made a Tool mechanism Rental website for farmers using Next.JS and Sanity CMS mentored by JavaScript Mastery.
 
 # Problems Faced
 
@@ -36,15 +18,15 @@ There were 3 main problems that I faced in making this Project namely:
 
 ### 1<sup>st</sup> Problem:
 
-✅ In this problem, I was constantly getting Integration Error: Uncaught Promise, and was not able to get the solution after reading docs and online material.
+✅ In this problem, We were constantly getting Integration Error: Uncaught Promise, and were not able to get the solution even after reading docs and online material.
 <br>
-✅ After going through the Networks tab in Chrome DevTools, I realized that for payments I need to open a business account on stripe, I did that and it worked!
+✅ After going through the Networks tab in Chrome DevTools, We realized that for payments we need to open a business account on stripe, So we did that and it worked!
 <br>
 <br>
 
 ### 2<sup>nd</sup> Problem:
 
-✅ I was encountering issues like button going out of div under 400px, no margin between 2 divs under 800px, so I:
+✅ We were encountering issues like button going out of div under 400px, no margin between 2 divs under 800px, so we:
 
 1. Shrunk the font size
 2. Added margin-left to left div
@@ -54,13 +36,13 @@ There were 3 main problems that I faced in making this Project namely:
 
 ### 3<sup>rd</sup> Problem:
 
-✅ Vercel was giving deployment error because I had used target="\_blank" in my social media links so I fixed it via adding rel="noopener noreferrer".
+✅ Vercel was giving deployment error because we had used target="\_blank" in my social media links so we fixed it via adding rel="noopener noreferrer".
 <br>
 ❌ Favicon issue is not resolved, problem is that the custom favicon that I inserted is not showing on the site.
 <br>
 <br>
 
-# What I learned by building this Project:
+# What we learned by building this Project:
 
 1. npm install --legacy-peer-deps installs exact version of packages mentioned in package.json.
    <br>
