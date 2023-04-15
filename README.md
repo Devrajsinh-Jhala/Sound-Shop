@@ -42,7 +42,7 @@ There were 3 main problems that I faced in making this Project namely:
 <br>
 <br>
 
-# What I learned by building this Project:
+# What we learned by building this Project:
 
 1. npm install --legacy-peer-deps installs exact version of packages mentioned in package.json.
    <br>
