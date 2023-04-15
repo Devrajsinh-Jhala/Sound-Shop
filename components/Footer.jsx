@@ -8,9 +8,6 @@ import {
 const Footer = () => {
   return (
     <div className="footer-container">
-      <p>
-        Made with 🧡 by <b>Devraj Jhala</b>
-      </p>
       <p className="icons">
         <a
           rel="noopener noreferrer"
