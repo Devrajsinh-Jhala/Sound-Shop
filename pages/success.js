@@ -26,8 +26,8 @@ const Success = () => {
         <p className="email-msg">Check your Email for the receipt</p>
         <p className="description">
           If You have any Doubts, feel free to Email at:
-          <a className="email" href="mailto:jhaladevrajsinh11@gmail.com">
-            jhaladevrajsinh11@gmail.com
+          <a className="email" href="abc@gmail.com">
+            abc@gmail.com
           </a>
         </p>
 
