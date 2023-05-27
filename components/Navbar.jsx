@@ -16,6 +16,7 @@ const Navbar = () => {
     <div className="navbar-container">
       <p className="logo">
         <Link href={"/"}>AgriRent</Link>
+        <Link href={"/contact"}>Contact Us</Link>
       </p>
 
       <div className="navbar-inner">
